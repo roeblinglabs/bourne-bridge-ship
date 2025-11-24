@@ -1,0 +1,159 @@
+{
+  "timestamp": "2025-11-24T07:47:17.070305-05:00",
+  "vessels": [
+    {
+      "name": "TOULA C.",
+      "mmsi": "367515090",
+      "type": "Unknown",
+      "Latitude": 41.47309166666666,
+      "Longitude": -70.57247666666667,
+      "Sog": 0.9,
+      "Cog": 16.1,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "WINDSERVE SPARTAN",
+      "mmsi": "368379170",
+      "type": "Unknown",
+      "Latitude": 41.643116666666664,
+      "Longitude": -70.91627833333334,
+      "Sog": 0,
+      "Cog": 150,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "TIMOTHY L. REINAUER",
+      "mmsi": "367409290",
+      "type": "Unknown",
+      "Latitude": 42.23655,
+      "Longitude": -70.96808833333333,
+      "Sog": 0,
+      "Cog": 198.6,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "ISLAND QUEEN",
+      "mmsi": "366776000",
+      "type": "Unknown",
+      "Latitude": 41.55073333333333,
+      "Longitude": -70.60072666666666,
+      "Sog": 0,
+      "Cog": 39.4,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "ASTERIA",
+      "mmsi": "367367470",
+      "type": "Unknown",
+      "Latitude": 42.24361666666667,
+      "Longitude": -70.97107833333332,
+      "Sog": 0,
+      "Cog": 240.3,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "ISLAND HOME",
+      "mmsi": "367130910",
+      "type": "Unknown",
+      "Latitude": 41.522166666666664,
+      "Longitude": -70.67161833333333,
+      "Sog": 3.8,
+      "Cog": 73.8,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "THUBAN",
+      "mmsi": "367180790",
+      "type": "Unknown",
+      "Latitude": 41.48667666666667,
+      "Longitude": -70.59975333333334,
+      "Sog": 5.8,
+      "Cog": 303.7,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "SANKATY",
+      "mmsi": "366917530",
+      "type": "Unknown",
+      "Latitude": 41.633156666666665,
+      "Longitude": -70.90798833333334,
+      "Sog": 0,
+      "Cog": 86.2,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "FV PRINCESS SCARLETT",
+      "mmsi": "368003140",
+      "type": "Unknown",
+      "Latitude": 41.633723333333336,
+      "Longitude": -70.90729666666667,
+      "Sog": 0,
+      "Cog": 258.8,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "AURORA",
+      "mmsi": "367379320",
+      "type": "Unknown",
+      "Latitude": 42.24373666666667,
+      "Longitude": -70.97103999999999,
+      "Sog": 0,
+      "Cog": 87.7,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "CG OAK",
+      "mmsi": "369906000",
+      "type": "Unknown",
+      "Latitude": 41.493433333333336,
+      "Longitude": -70.88424666666667,
+      "Sog": 5.4,
+      "Cog": 252.1,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "PATRIOT STATE",
+      "mmsi": "303829064",
+      "type": "Unknown",
+      "Latitude": 41.738371666666666,
+      "Longitude": -70.62640666666667,
+      "Sog": 0,
+      "Cog": 125.8,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "BARNSTABLE",
+      "mmsi": "368354510",
+      "type": "Unknown",
+      "Latitude": 41.503838333333334,
+      "Longitude": -70.22828166666666,
+      "Sog": 11.5,
+      "Cog": 155.3,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    },
+    {
+      "name": "NOAA GLORIA MICHELLE",
+      "mmsi": "338066383",
+      "type": "Unknown",
+      "Latitude": 41.52610166666667,
+      "Longitude": -70.67468000000001,
+      "Sog": 0,
+      "Cog": 0,
+      "ShipType": "Unknown",
+      "Dimension": {}
+    }
+  ]
+}
