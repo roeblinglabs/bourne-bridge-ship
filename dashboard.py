@@ -119,9 +119,39 @@ with col1:
     m = folium.Map(
         location=[BRIDGE_LAT, BRIDGE_LON],
         zoom_start=10,
-        tiles='OpenStreetMap'
+        tiles=None  # Start with no tiles, add custom layers below
     )
-    
+
+    # Add OpenStreetMap as base layer
+    folium.TileLayer(
+        tiles='https://tile.openstreetmap.org/{z}/{x}/{y}.png',
+        attr='© OpenStreetMap contributors',
+        name='OpenStreetMap',
+        overlay=False,
+        control=True
+    ).add_to(m)
+
+    # Add NOAA ENC nautical charts as alternative base layer (via ArcGIS REST)
+    folium.WmsTileLayer(
+        url='https://gis.charttools.noaa.gov/arcgis/rest/services/MCS/ENCOnline/MapServer/exts/MaritimeChartService/WMSServer',
+        layers='0,1,2,3,4,5,6,7',
+        fmt='image/png',
+        transparent=True,
+        attr='© NOAA',
+        name='NOAA Nautical Charts',
+        overlay=False,
+        control=True
+    ).add_to(m)
+
+    # Add OpenSeaMap nautical chart overlay (works on top of any base layer)
+    folium.TileLayer(
+        tiles='https://tiles.openseamap.org/seamark/{z}/{x}/{y}.png',
+        attr='© OpenSeaMap contributors',
+        name='OpenSeaMap Overlay',
+        overlay=True,
+        control=True
+    ).add_to(m)
+
     # Add Bourne Bridge marker (BLUE - infrastructure)
     folium.Marker(
         [BRIDGE_LAT, BRIDGE_LON],
@@ -280,7 +310,10 @@ with col1:
                 tooltip=f"{ship['name']} - {risk_level}",
                 icon=marker_icon
             ).add_to(m)
-    
+
+    # Add layer control to toggle between map layers (must be added last)
+    folium.LayerControl(position='topleft', collapsed=True).add_to(m)
+
     # Display map
     st_folium(m, width=700, height=600)
     
